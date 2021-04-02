@@ -4,11 +4,11 @@ for (var i=0;i<20;i++){
 	a.style.display = "none";
 	a.style.width = "100";
 	a.style.height = "50";
-	a.src = "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1";
+	a.src = "https://www.youtube.com/embed/dQw4w9WgXcQ";
 	document.body.appendChild(a);
 }
 for (var i=0;i<20;i++){
-	document.getElementById(i.toString()).src = "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1";
+	document.getElementById(i.toString()).src = "https://www.youtube.com/embed/dQw4w9WgXcQ";
 }
 
 document.getElementById("a").onclick = function(){
@@ -24,7 +24,7 @@ function ssss(){
 		}
 		else{
 			a.style.display = "none";
-			a.src = "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1";
+			a.src = "https://www.youtube.com/embed/dQw4w9WgXcQ";
 		}
 	}
 }
