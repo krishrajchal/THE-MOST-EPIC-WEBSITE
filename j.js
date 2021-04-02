@@ -4,7 +4,7 @@ for (var i=0;i<20;i++){
 	a.style.display = "none";
 	a.style.width = "100";
 	a.style.height = "50";
-	a.src = "https://www.youtube.com/embed/dQw4w9WgXcQ";
+	a.src = "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1";
 	document.body.appendChild(a);
 }
 document.getElementById("a").onclick = function(){
