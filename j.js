@@ -7,6 +7,10 @@ for (var i=0;i<20;i++){
 	a.src = "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1";
 	document.body.appendChild(a);
 }
+for (var i=0;i<20;i++){
+	document.getElementById(i.toString()).src = "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1";
+}
+
 document.getElementById("a").onclick = function(){
 	ssss();
 }
