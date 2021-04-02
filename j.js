@@ -1,4 +1,4 @@
-var site = "https://www.youtube.com/embed/FtE6SV_1wu4?autoplay=1";
+var site = "";
 
 for (var i=0;i<21;i++){
 	var a = document.createElement("iframe");
@@ -6,6 +6,11 @@ for (var i=0;i<21;i++){
 	a.style.display = "block";
 	a.style.width = "100";
 	a.style.height = "50";
-	a.src = site;
 	document.body.appendChild(a);
+}
+
+function g(){
+	for(var i = 0;i<21;i++){
+		a.src = "https://www.youtube.com/embed/"+document.getElementById("c").value+"?autoplay=1";
+	}
 }
