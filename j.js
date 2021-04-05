@@ -11,6 +11,6 @@ for (var i=0;i<21;i++){
 
 function g(){
 	for(var i = 0;i<21;i++){
-		a.src = "https://www.youtube.com/embed/"+document.getElementById("c").value+"?autoplay=1";
+		a.src = "https://www.youtube.com/embed/"+document.getElementById("c").innerHTML+"?autoplay=1";
 	}
 }
