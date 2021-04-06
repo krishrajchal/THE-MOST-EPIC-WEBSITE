@@ -13,6 +13,6 @@ document.getElementById("text").addEventListener("change", g);
 
 function g(){
 	for(var i = 0;i<21;i++){
-		a.src = "https://www.youtube.com/embed/"+document.getElementById("c").innerHTML+"?autoplay=1";
+		document.getElementById(i.toString()).src = "https://www.youtube.com/embed/"+document.getElementById("c").innerHTML+"?autoplay=1";
 	}
 }
