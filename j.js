@@ -9,7 +9,7 @@ for(var i=0;i<21;i++){
 	document.body.appendChild(a);
 }
 
-document.getElementById("text").addEventListener("change", g);
+document.getElementById("c").addEventListener("change", g);
 
 function g(){
 	for(var i = 0;i<21;i++){
