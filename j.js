@@ -14,6 +14,6 @@ document.getElementById("c").addEventListener("change", g);
 function g(){
 	site = document.getElementById("c").innerHTML;
 	for(var i = 0;i<21;i++){
-		document.getElementById(i.toString()).src = "https://www.youtube.com/embed/"+site+"?playlist="+site+"&autoplay=1";
+		document.getElementById(i.toString()).src = "https://www.youtube.com/embed/"+site+"?playlist="+site+"&autoplay=1&loop=1";
 	}
 }
