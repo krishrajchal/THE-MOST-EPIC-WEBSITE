@@ -6,14 +6,15 @@ for(var i=0;i<21;i++){
 	a.style.display = "block";
 	a.style.width = "100";
 	a.style.height = "50";
+	a.src = "";
 	document.body.appendChild(a);
 }
 
 document.getElementById("c").addEventListener("change", g);
 
 function g(){
-	site = document.getElementById("c").innerHTML;
+	site = document.getElementById("c").innerHTML.toString();
 	for(var i = 0;i<21;i++){
-		document.getElementById(i.toString()).src = "https://www.youtube.com/embed/"+site;
+		document.getElementById(i.toString()).src = "https://www.youtube.com/embed/"+site+"?playlist="+site+"&autoplay=1&loop=1";
 	}
 }
