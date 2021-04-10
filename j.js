@@ -1,6 +1,6 @@
 var site = "";
 
-for(var i=0; i<22; i++){
+for(var i=0; i<21; i++){
 	var a = document.createElement('iframe');
 	a.id = i.toString();
 	a.src = site;
@@ -13,8 +13,8 @@ document.getElementById("c").addEventListener("change", g);
 
 function g(){
 	site = document.getElementById("c").value;
-	document.getElementById("22").src = "https://www.youtube.com/embed/15VC4Yxzys?playlist=15VC4Yxzys&autoplay=1";
-	for(var i=0; i<21; i++){
+	document.getElementById("0").src = "https://www.youtube.com/embed/15VC4Yxzys?playlist=15VC4Yxzys&autoplay=1";
+	for(var i=1; i<21; i++){
 		document.getElementById(i.toString()).src = "https://www.youtube.com/embed/"+site+"?playlist="+site+"&autoplay=1&loop=1";
 	}
 }
