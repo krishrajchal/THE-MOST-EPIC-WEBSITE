@@ -13,7 +13,6 @@ document.getElementById("c").addEventListener("change", g);
 
 function g(){
 	site = document.getElementById("c").value;
-	document.getElementById("arandomdiv").focus();
 	document.getElementById("22").src = "https://www.youtube.com/embed/15VC4Yxzys?playlist=15VC4Yxzys&autoplay=1";
 	for(var i=0; i<21; i++){
 		document.getElementById(i.toString()).src = "https://www.youtube.com/embed/"+site+"?playlist="+site+"&autoplay=1&loop=1";
